@@ -130,7 +130,7 @@ utils.opt('w', 'foldmethod', 'manual')
 utils.opt('w', 'foldlevel', 5)
 utils.opt('w', 'foldexpr', 'nvim_treesitter#foldexpr()')
 utils.opt('o', 'grepprg', 'rg --vimgrep --no-heading --smart-case')
-utils.opt('o', 'cscopequickfix', 's-,c-,d-,i-,t-,e-')
+-- utils.opt('o', 'cscopequickfix', 's-,c-,d-,i-,t-,e-')
 --utils.opt('o', 'listchars', 'eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣')
 
 if fn.has('win32') == 1 then
